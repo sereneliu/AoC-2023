@@ -7,7 +7,12 @@ year. This year, I'm coming in with the expectation that I will only do the firs
 
 ## Day 1
 
-
+Was traveling on day 1, so I did this puzzle on day 2, after solving day 2. Although I didn't really use much regex in
+day 2 (at least in the first iteration), I was able to apply what I learned to this one, so I was really happy that
+I chose to do the two puzzles in this order. I already knew from some of the reddit posts that part 2 would be much
+more difficult than part 1. I did solve part 1 pretty quickly, but part 2 didn't seem that difficult to me, once I found
+a library I could import for all the number words to match with. That said, my part 2 solution isn't quite working, and
+I'm still not clear why...
 
 ## Day 2
 
