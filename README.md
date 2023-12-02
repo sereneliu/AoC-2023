@@ -11,6 +11,9 @@ year. This year, I'm coming in with the expectation that I will only do the firs
 
 ## Day 2
 
+After reading the instructions for today, I decided that I would take this chance to learn regex finally. I spent quite
+a bit of time struggling with regex. Got something semi-working, but not quite. Frustrated, I decided that it's best for
+me to just solve this the way I already know how, and then refactor later to make the solution more elegant.
 
 ## Day 3
 
