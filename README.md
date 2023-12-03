@@ -14,6 +14,11 @@ more difficult than part 1. I did solve part 1 pretty quickly, but part 2 didn't
 a library I could import for all the number words to match with. That said, my part 2 solution isn't quite working, and
 I'm still not clear why...
 
+[Later]
+Okay, as it turns out, I didn't read closely enough, yet again. I had an idea of what the problem was asking for,
+and as a result, I struggled for awhile on something that wouldn't have worked anyway. Once it was pointed out to me
+what I had not thought about, the solution came easily.
+
 ## Day 2
 
 After reading the instructions for today, I decided that I would take this chance to learn regex finally. I spent quite
