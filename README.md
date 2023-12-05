@@ -27,10 +27,18 @@ me to just solve this the way I already know how, and then refactor later to mak
 
 ## Day 3
 
+Sadly, I only completed part 1 within the first 24 hours of the puzzle release. I didn't start the puzzle until late
+and I didn't anticipate how long it would take me to solve. Most of that time was spent trying to figure out all the
+off by 1 errors. I figured out most of them relatively quickly, but there was one that took forever for me to find.
+I knew that the regex span() function acts similarly to range(), meaning it starts at 0, but I didn't realize that the
+ending number was beyond the last position. Ofc, range() works exactly like that too, but somehow I forgot? Heh.
 
 ## Day 4
 
-
+Today's puzzle was the easiest for me thus far. Finished both parts in a little over half an hour. Most of my time was
+spent figuring out how to math in python, and then understanding what part 2 was even asking for took a little while.
+That said, I was able to complete part 2 on my first try! Didn't expect that at all, especially considering how bad
+I was with the off by 1 errors yesterday.
 
 ## Day 5
 
