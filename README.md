@@ -53,7 +53,10 @@ I was with the off by 1 errors yesterday.
 
 ## Day 8
 
-
+[started on day 9]
+Part 1 was easy enough, except for the part where I accidentally put the while loop inside the for loop instead of
+the other way around. My part 2 solution works for the example input, but ofc will not finish any time soon unless
+I find a different solution. Will come back to this later...
 
 # Day 9
 
