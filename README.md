@@ -57,7 +57,9 @@ I was with the off by 1 errors yesterday.
 
 # Day 9
 
-
+After skipping a couple of days due to some personal issues keeping me busy, I'm happy to see that today's puzzle was
+quite easy. That said, I did mess up the subtraction piece in part 2 and spent a bit of time debugging. Anyway, this
+means I have the time and energy to go back and work on the days I missed.
 
 # Day 10
 
