@@ -39,8 +39,8 @@ def rank_and_score(all_hands):
     for hand in all_hands:
         cards, bet = hand.split(' ')
         hands.append(assign_values(cards, bet))
-    hands = sorted(hands, reverse=True)
-    for idx in reversed(range(len(hands))):
+    hands = sorted(hands)
+    for idx in range(len(hands)):
         total += (idx + 1) * hands[idx][-1]
     return total
 
