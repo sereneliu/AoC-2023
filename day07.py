@@ -3,10 +3,15 @@ from aocd import get_data
 puzzle_input = get_data(day=7, year=2023).split('\n')
 
 labels = ['2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K', 'A']
+labels2 = ['J', '2', '3', '4', '5', '6', '7', '8', '9', 'T', 'Q', 'K', 'A']
 types = ['high', 'one', 'two', 'three', 'full', 'four', 'five']
 
-def find_type(cards):
+def find_type(cards, wild):
     counts = Counter(cards)
+    if wild:
+        if 'J' in counts.keys():
+            counts[counts.most_common()[0][0]] += counts['J']
+            del[counts['J']]
     match sorted(counts.values()):
         case [5]:
             return types.index('five')
@@ -24,7 +29,7 @@ def find_type(cards):
 
 def assign_values(hand, bet):
     hand_values = []
-    hand_values.append(find_type(hand))
+    hand_values.append(find_type(hand, True))
     card_values = []
     for card in hand:
         card_values.append(labels.index(card))
