@@ -58,50 +58,50 @@ Part 1 was easy enough, except for the part where I accidentally put the while l
 the other way around. My part 2 solution works for the example input, but ofc will not finish any time soon unless
 I find a different solution. Will come back to this later...
 
-# Day 9
+## Day 9
 
 After skipping a couple of days due to some personal issues keeping me busy, I'm happy to see that today's puzzle was
 quite easy. That said, I did mess up the subtraction piece in part 2 and spent a bit of time debugging. Anyway, this
 means I have the time and energy to go back and work on the days I missed.
 
-# Day 10
+## Day 10
 
 
 
-# Day 11
+## Day 11
 
 
 
-# Day 12
+## Day 12
 
 
 
-# Day 13
+## Day 13
 
-# Day 14
+## Day 14
 
-# Day 15
+## Day 15
 
-# Day 16
+## Day 16
 
-# Day 17
+## Day 17
 
-# Day 18
+## Day 18
 
-# Day 19
+## Day 19
 
-# Day 20
+## Day 20
 
-# Day 21
+## Day 21
 
-# Day 22
+## Day 22
 
-# Day 23
+## Day 23
 
-# Day 24
+## Day 24
 
 
 
-# Day 25
+## Day 25
 
 
