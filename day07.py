@@ -27,26 +27,30 @@ def find_type(cards, wild):
             return types.index('one')
     return types.index('high')
 
-def assign_values(hand, bet):
+def assign_values(hand, bet, wild):
     hand_values = []
-    hand_values.append(find_type(hand, True))
+    hand_values.append(find_type(hand, wild))
     card_values = []
     for card in hand:
-        card_values.append(labels.index(card))
+        if wild:
+            card_values.append(labels2.index(card))
+        else:
+            card_values.append(labels.index(card))
     # card_values = sorted(card_values, key=card_values.count, reverse=True)
     hand_values.extend(card_values)
     hand_values.append(int(bet))
     return hand_values
 
-def rank_and_score(all_hands):
+def rank_and_score(all_hands, wild):
     hands = []
     total = 0
     for hand in all_hands:
         cards, bet = hand.split(' ')
-        hands.append(assign_values(cards, bet))
+        hands.append(assign_values(cards, bet, wild))
     hands = sorted(hands)
     for idx in range(len(hands)):
         total += (idx + 1) * hands[idx][-1]
     return total
 
-print(rank_and_score(puzzle_input))
+print(rank_and_score(puzzle_input, False))
+print(rank_and_score(puzzle_input, True))
