@@ -28,7 +28,7 @@ def assign_values(hand, bet):
     card_values = []
     for card in hand:
         card_values.append(labels.index(card))
-    card_values = sorted(card_values, key=card_values.count, reverse=True)
+    # card_values = sorted(card_values, key=card_values.count, reverse=True)
     hand_values.extend(card_values)
     hand_values.append(int(bet))
     return hand_values
