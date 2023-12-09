@@ -49,7 +49,12 @@ I was with the off by 1 errors yesterday.
 
 ## Day 7
 
-
+[completed on day 9]
+This puzzle took forever to set up. For part 1, my struggles mostly stemmed from not reading the instructions carefully,
+as usual. I made it harder for myself by trying to apply actual poker rules to the game, in the case of ties of the
+same card type. For part 2, I didn't consider two edge cases: (1) if J ends up the first item in my dict, and (2) if
+the entire hand is filled with Js. At some point, I should start adding unit tests to my solutions instead of using
+print statements everywhere...
 
 ## Day 8
 
