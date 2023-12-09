@@ -10,8 +10,11 @@ def find_type(cards, wild):
     counts = Counter(cards)
     if wild:
         if 'J' in counts.keys():
-            counts[counts.most_common()[0][0]] += counts['J']
+            j_count = counts['J']
+            if j_count == 5:
+                return types.index('five')
             del[counts['J']]
+            counts[counts.most_common()[0][0]] += j_count
     match sorted(counts.values()):
         case [5]:
             return types.index('five')
